@@ -52,16 +52,16 @@ def question(type, question, answer1, answer2, answer3, answer4, riktig, range, 
                 else:
                     n = 3
             except:
-                answer = input("Venligst bare skriv inn tall 1-" + str(answers) + ":")
+                answer = input("Venligst bare skriv inn tall 1-" + str(answers) + ": ")
         n = 1
         if answer == riktig:
             print("Riktig!")
             return(poeng)
         else:
-            print("Feil! Riktig svar var nr " + str(riktig))
+            print("Feil! Riktig svar var nr " + str(riktig) + "\n")
             return(0)
     else:
-        print("bare velg mellom type 1 og 2")
+        print("bare velg mellom type 1 og 2\n")
 
 poengsum = poengsum + question(1, "Hvor høy er verdens høyeste bygning?", 828, 0, 0, 0, 1, 10, 1)
 poengsum = poengsum + question(2, "Hvor raskt løper et rovdyr?", 30, 50, 70, 80, 3, 0, 1)

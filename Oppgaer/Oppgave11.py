@@ -5,6 +5,6 @@ liste = ["I", "dag", "er", "jeg", "så", "lykkelig", "så", "lykkelig", "så",
 "som", "dagen", "den", "er", "lang"]
 
 print(len(liste))
-print('Ordet "så" er i listen: ' + str(liste.count("så")))
-print('Ordet "lykkelig" er i listen: ' + str(liste.count("lykkelig")))
-print('Ordet "dag" er i listen: ' + str(liste.count("dag")))
+
+hvorMange = {"så": liste.count("så"), "lykkelig": liste.count("lykkelig"), "dag": liste.count("dag")}
+print(hvorMange)

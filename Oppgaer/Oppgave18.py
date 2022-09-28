@@ -29,4 +29,14 @@ while n < 2:
 
 #   Del 3. Denne var faktisk umulig å forstå
 
-    
+n=0
+while n < 1:
+    try:
+        repeat = int(input("Hvor mange ganger skal jeg gjenta?\n"))
+        n = 2
+    except:
+        print("Må være et tall!")
+x = 0        
+while x < repeat:
+    print("Hei!")
+    x += 1

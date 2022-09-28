@@ -5,7 +5,7 @@ tall = False
 def foTall():
     n = 1
     while 2 > n:
-        tall = input("hvilken måned vil du ha? 1-12: ")
+        tall = input("Hvilken måned vil du ha? 1-12: ")
         try:
             tall = int(tall)
             return(tall)

@@ -1,3 +1,5 @@
+#Dette er bare den du viste på talva. Se Oppgave2.py for min løsning
+
 print("\n\n\nHei og velkommen til quiz!\n")
 poeng = 0
 

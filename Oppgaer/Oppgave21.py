@@ -8,7 +8,7 @@ while n < 5:
             liste.append(int(input("Skriv et tall: ")))
             m = 3
         except:
-            print("Wopsie opsie")
+            print("Wopsie opsie, det funker ikke sjef.")
     n +=1
 
 sum = 0
